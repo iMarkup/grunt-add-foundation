@@ -17,9 +17,9 @@ Theme URI:
 @import 'bower_components/foundation-sites/scss/foundation';
 @import 'bower_components/motion-ui/motion-ui';
 
-@import 'scss/base/mixins';
-@import 'scss/base/helpers';
-@import "scss/base/wp-reset";
+@import 'base/mixins';
+@import 'base/helpers';
+@import "base/wp-reset";
 
 @include foundation-global-styles;
 @include foundation-grid;
